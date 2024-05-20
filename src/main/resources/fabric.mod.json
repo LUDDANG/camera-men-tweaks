@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "camera-men-tweaks",
+  "version": "${version}",
+  "name": "CameraMenTweaks",
+  "description": "[루동부] 카메라맨 전용 모드입니다",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/return0927/CameraMenTweaks"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kr.enak.minecraft.mods.fabric.cameramentweaks.client.CameraMenTweaksClient"
+    ],
+    "main": [
+      "kr.enak.minecraft.mods.fabric.cameramentweaks.CameraMenTweaks"
+    ]
+  },
+  "mixins": [
+    "camera-men-tweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

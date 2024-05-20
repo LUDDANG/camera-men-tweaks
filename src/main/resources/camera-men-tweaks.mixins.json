@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "kr.enak.minecraft.mods.fabric.cameramentweaks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MixinNoScreenshotMessage"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
